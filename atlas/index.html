@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101a18"><meta name="description" content="A personal bartender's field guide: recipes, spirits, service, games and a private learning dashboard.">
+<title>Pourfolio — Bartender's Field Guide</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href="#home"><span class="brand-mark">P</span><span><b>POURFOLIO</b><small>THE BARTENDER'S FIELD GUIDE</small></span></a>
+  <div class="side-label">YOUR BAR</div>
+  <nav id="main-nav">
+    <a href="#home" data-page="home" class="nav-link active"><span>◈</span> Overview</a>
+    <a href="#cocktails" data-page="cocktails" class="nav-link"><span>◉</span> Cocktail library <i>200</i></a>
+    <a href="#shots" data-page="shots" class="nav-link"><span>◉</span> 30 shots & shooters</a>
+    <a href="#spirits" data-page="spirits" class="nav-link"><span>◌</span> Spirits atlas</a>
+    <a href="#liqueurs" data-page="liqueurs" class="nav-link"><span>✳</span> Liqueur cabinet <i>150+</i></a>
+    <a href="#wine-beer" data-page="wine-beer" class="nav-link"><span>⌁</span> Wine & beer</a>
+    <a href="#pairings" data-page="pairings" class="nav-link"><span>⟷</span> Pairing studio</a>
+    <div class="side-label spaced">CRAFT & SERVICE</div>
+    <a href="#craft" data-page="craft" class="nav-link"><span>✧</span> Build a cocktail</a>
+    <a href="#service" data-page="service" class="nav-link"><span>⌂</span> Bar & hospitality</a>
+    <a href="#tools" data-page="tools" class="nav-link"><span>⚒</span> Tools & glassware</a>
+    <a href="#games" data-page="games" class="nav-link"><span>▦</span> Practice games</a>
+    <a href="#assistant" data-page="assistant" class="nav-link"><span>✦</span> AI bar mentor</a>
+  </nav>
+  <div class="sidebar-bottom"><div class="local-badge"><span class="live-dot"></span><span><b>Private by design</b><small>Progress stays in this browser</small></span></div><button class="text-btn" id="export-data">↗ Export your learning data</button></div>
+</aside>
+<main class="main-area">
+<header class="topbar"><button class="mobile-menu" id="mobile-menu" aria-label="Open menu">☰</button><div class="crumb" id="crumb">YOUR PERSONAL BAR / <b>OVERVIEW</b></div><div class="top-actions"><button class="icon-btn" id="search-open" aria-label="Search">⌕</button><span class="date-label" id="today-date"></span><span class="avatar">B</span></div></header>
+<div class="page-wrap" id="app-content"></div>
+<footer>POUR WITH CURIOSITY · SERVE WITH CARE <span>Personal study guide · Always follow local alcohol laws & responsible-service practices.</span></footer>
+</main></div>
+<div id="modal-root"></div><div id="toast" class="toast"></div>
+<script src="cocktail-catalog.js"></script><script src="app.js"></script>
+</body></html>
