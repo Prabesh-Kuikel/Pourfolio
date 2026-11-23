@@ -1,12 +1,11 @@
 # Pourfolio — GitHub Pages build
 
-This ZIP is ready to publish: `index.html`, `assets/`, and `atlas/` are at the archive root.
+Ready-to-publish static website. Upload the contents at this ZIP's root: `index.html`, `assets/`, and `atlas/`. There is no hidden file to upload.
 
-1. Create or open your GitHub repository and upload/extract these files at its root.
-2. Open **Settings → Pages**.
-3. Choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-4. Visit the published Pages URL.
+1. Create/open your GitHub repository; use **Add file → Upload files**.
+2. Upload `index.html`, this README, and the complete `assets` and `atlas` folders directly at the repository root.
+3. Commit the upload. Open **Settings → Pages** and choose **Deploy from a branch → main → /(root)**.
 
-Progress, inventory, reflections, quizzes and notes stay in this browser's localStorage. There is no server, database, login, API key or runtime network dependency. Data is not shared or synced across browsers/devices. Use **Export browser backup** before clearing site data or switching devices.
+The app stores progress, notes, reflections, inventory, business-planning worksheet and preferences in this browser's localStorage. There is no account, server, database, API key or runtime network request. Data does not sync between devices. Export a backup before clearing site data or changing computers; protect backup files because they can contain reflections and planning notes.
 
-`atlas/` contains the complete beverage field guide used by the site.
+The `atlas/` folder is part of the app and must stay intact. The source project contains full setup and study notes.
